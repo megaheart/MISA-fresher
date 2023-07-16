@@ -1,0 +1,30 @@
+.m-input{
+    height: 40px;
+    color: #000;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #bbb;
+    border-style: solid;
+    outline: none;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-image: url(../../assets/find.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 20px;
+    background-size:20px ;
+}
+.m-input:focus{
+    border-color: #019160;
+}
+.m-input::placeholder{
+    font-size: 11px;
+    color: #bbb;
+}
+
+
+
+.loading::before{
+    animation: 3s infinite;
+}
