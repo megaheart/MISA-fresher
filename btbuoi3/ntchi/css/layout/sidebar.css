@@ -20,8 +20,8 @@
     align-items: center;
 }
 .side_bar_head .toggle{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
     width: 16px;
 	height: 16px;
     background: #fff;
@@ -29,7 +29,7 @@
     margin-left: 0px;
 }
 .side_bar_head .logo{
-    background: url('/assets/img/Sprites.64af8f61.svg') no-repeat -1232px -1015px;
+    background: url('/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg') no-repeat -1232px -1015px;
 	width: 44px;
 	height: 45px;
     margin-right:8px;
@@ -74,120 +74,120 @@
     color: #fff;
 }
 .sidebar_element .sidebar_element_icon.icon-tongquan{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -33px -1630px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -32px -1721px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -33px -1630px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -32px -1721px;
     width: 18px;
 	height: 20px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-tienmat{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
     width: 14px;
 	height: 18px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-tiengui{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
     width: 16px;
 	height: 16px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-muahang{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
     width: 16px;
 	height: 18px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-banhang{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
     width: 16px;
 	height: 18px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-quanlyhoadon{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
     width: 14px;
 	height: 17px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-kho{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
     width: 18px;
 	height: 17px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-congcudungcu{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
     width: 18px;
 	height: 17px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-taisancodinh{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1632px;
     width: 17px;
 	height: 18px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-thue{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -427px -1634px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -427px -1634px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -427px -1634px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -427px -1634px;
     width: 16px;
 	height: 16px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-giathanh{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -471px -1633px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -471px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
     width: 17px;
 	height: 17px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-tonghop{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -514px -1632px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -514px -1632px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -514px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -514px -1632px;
     width: 16px;
 	height: 18px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-ngansach{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1664px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1664px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1664px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1664px;
     width: 16px;
 	height: 16px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-baocao{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -552px -1636px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -552px -1636px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -552px -1636px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -552px -1636px;
     width: 14px;
 	height: 13px;
     background-color: #869AB8;
 }
 
 .sidebar_element .sidebar_element_icon.icon-phantichtaichinh{
-    -webkit-mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat  -207px -1667px;
-    mask: url("/assets/img/Sprites.64af8f61.svg") no-repeat -207px -1667px;
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -207px -1667px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -207px -1667px;
     width: 17px;
 	height: 14px;
     background-color: #869AB8;
