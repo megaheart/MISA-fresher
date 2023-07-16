@@ -3,7 +3,7 @@
   width: 100%;
   padding: 0 8px 0 0;
   height: 36px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   margin-top: 8px;
   border-radius: var(--border-radius-size);
   display: flex;
