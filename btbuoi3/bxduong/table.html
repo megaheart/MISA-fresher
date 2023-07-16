@@ -396,5 +396,20 @@
       </tbody>
     </table>
   </div>
+  <script>
+    const checkboxes = document.querySelectorAll("input[type='checkbox']");    
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener('click', (e) => {
+        this.checked = !this.checked;
+        const computed = window.getComputedStyle(checkbox , '::after');
+        if (computed) {
+          checkbox.parentElement.parentElement.parentElement.classList.add("active");
+        } else {
+          checkbox.parentElement.parentElement.parentElement.classList.remove("active");
+        } 
+      })
+    })
+  </script>
   </body>
 </html>

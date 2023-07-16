@@ -50,6 +50,10 @@
   background-color: #f8f8f8;
 }
 
+.table-staff__row.body-row.active {
+  background-color: #EDF8EB;
+}
+
 .table-staff .table-staff__table-data {
   height: 48px;
   font-weight: 400;
@@ -187,6 +191,10 @@ input[type="checkbox"]:checked {
   background: #50b83c;
   color: #ffffff;
 }
+
+input[type="checkbox"]:checked ~ td {
+  background-color: #055b27;
+} 
 
 input[type="checkbox"] {
   cursor: pointer;
