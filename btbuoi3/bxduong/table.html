@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1ee286c6eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="table-style.css" />
+  </head>
+  <body>
+    <div class="table-staff__container">
+    <table class="table-staff">
+      <thead class="table-staff__head">
+        <tr class="table-staff__row--head-row">
+          <th id="table-checkbox" class="table-staff__header checkbox">
+            <label class="checkbox">
+              <input type="checkbox"/>
+            </label>
+          </th>
+          <th class="table-staff__header header--with-filter">
+            <div class="header__container">
+              Mã nhân viên
+              <span class="table-staff__filter">
+                <i class="fa-solid fa-filter"></i>
+                <div class="table-staff__filter-options">
+                  <div class="filter-options__title">Điều kiện lọc</div>
+                  <div class="filter-options__content">
+                    <label class="filter-options__input">
+                      <input type="text" placeholder="Nhập giá trị" />
+                    </label>
+                  </div>
+                  <div class="filter-options__actions">
+                    <div class="btn btn--secondary">
+                      <div class="btn__content">Bỏ lọc</div>
+                    </div>
+                    <div class="btn btn--primary">
+                      <div class="btn__content">Áp dụng</div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </th>
+          <th class="table-staff__header">Tên nhân viên</th>
+          <th class="table-staff__header">Giới tính</th>
+          <th class="table-staff__header">Ngày sinh</th>
+          <th class="table-staff__header">Số CMND</th>
+          <th class="table-staff__header">Chức danh</th>
+          <th class="table-staff__header">Tên đơn vị</th>
+          <th class="table-staff__header">Số tài khoản</th>
+          <th class="table-staff__header header--right">Đã sử dụng</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1111</td>
+          <td class="table-staff__table-data">Nguyễn Văn A A NguyEN</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="table-staff__row body-row" id="row-11">
+          <td class="table-staff__table-data checkbox">
+            <label class="checkbox">
+              <input type="checkbox" />
+            </label>
+          </td>
+          <td class="table-staff__table-data">MF1234</td>
+          <td class="table-staff__table-data">Nguyễn Văn A</td>
+          <td class="table-staff__table-data">Nam</td>
+          <td class="table-staff__table-data">28/12/1990</td>
+          <td class="table-staff__table-data">1234592402</td>
+          <td class="table-staff__table-data">Nhân viên</td>
+          <td class="table-staff__table-data">LR Tủ</td>
+          <td class="table-staff__table-data">0012312312</td>
+          <td class="table-staff__table-data table-data--right last-cell">
+            100.000 đ
+            <div class="table-staff__actions">
+              <span class="btn--round"
+                ><i class="fa-solid fa-pen"></i
+              ></span>
+              <span class="btn--round"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script>
+    const checkboxes = document.querySelectorAll("input[type='checkbox']");    
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener('click', (e) => {
+        const computed = window.getComputedStyle(checkbox , '::after')
+        if (computed.getPropertyValue('display') === 'block') {
+          checkbox.parentElement.parentElement.parentElement.classList.add("active");
+        } else {
+          checkbox.parentElement.parentElement.parentElement.classList.remove("active");
+        } 
+      })
+    })
+  </script>
+  </body>
+</html>
