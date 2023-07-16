@@ -1,102 +1,273 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.table-staff {
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #E0E0E0;
-    border-bottom: 0px;
-    box-sizing: border-box;
+/* Style khung chứa table */
+.table-staff__container {
+    height: 480px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
     border-radius: 4px 4px 0px 0px;
-    font-size: 14px;
+}
+
+.table-staff__container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style cho table */
+.table-staff {
+  border-spacing: 0;
+  width: 100%;
+  border-bottom: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+  table-layout: fixed;
+}
+
+.table-staff thead {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 .table-staff .table-staff__header {
-    height: 48px;
-    font-weight: 700;
-    color: #1F1F1F;
-    background-color: #EEEEEE;
-    padding: 0 16px;
-    text-align: left;   
+  height: 48px;
+  font-weight: 700;
+  color: #1f1f1f;
+  background-color: #eeeeee;
+  padding: 0 16px;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table-staff__row.body-row:hover {
+  background-color: #f8f8f8;
+}
+
+.table-staff .table-staff__table-data {
+  height: 48px;
+  font-weight: 400;
+  color: #1f1f1f;
+  padding: 0px 16px;
+  border-bottom: 1px solid #eeeeee;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Căn chỉnh dòng */
+.header--right,
+.table-data--right {
+  text-align: end !important;
+}
+
+.header--center,
+.table-data--center {
+  text-align: center !important;
 }
 
 /* Cố định chiều rộng ô khi kéo dài bảng*/
 #table-checkbox {
-    width: 20px;
+  width: 20px;
 }
-
 
 /* Filter của bảng*/
 
 .table-staff__filter {
-    float: right;
-    cursor: pointer;
+  float: right;
+  cursor: pointer;
 }
+
 
 .table-staff__filter-options {
-    visibility: hidden;
-    position: absolute;
-    display: flex;
-    margin-top: 12px;
-    background: #FFFFFF;
-    font-size: 14px;
-    box-shadow: 0px 3px 20px rgba(0,0,0,0.078);
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  margin-top: 12px;
+  background: #ffffff;
+  font-size: 14px;
+  transform: translateX(-50);
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.078);
+  border-radius: 4px;
 }
 
+/* Cho mũi tên của khung filter hướng lên */
 .table-staff__filter-options::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent #FFFFFF transparent;;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 2%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #ffffff transparent;
 }
 
 .table-staff__filter i:hover ~ .table-staff__filter-options {
-    z-index: 1;
-    visibility: visible;
-    flex-direction: column;
+  z-index: 2;
+  visibility: visible;
+  flex-direction: column;
 }
 
 .table-staff__filter-options .filter-options__title {
-    padding: 24px;
-    font-weight: 500;
+  padding: 24px;
 }
 
 .table-staff__filter-options .filter-options__content {
-    padding: 0px 24px 24px;
-    display: flex;
-    justify-content: flex-end;
+  padding: 0px 24px 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-staff__filter-options input[type="text"] {
+  color: #1f1f1f;
+  height: 36px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  border: 1px solid #e6e4e4;
+  outline: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .table-staff__filter-options .filter-options__actions {
-    padding: 12px 24px;
-    background-color: #F5F5F5;
+  padding: 12px 24px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
-
-.table-staff__row.body-row:hover {
-    background-color: #F8F8F8;
+/* Hiện các hành động có thể thực hiện khi hover chuột vào dòng của bảng */
+.table-staff .last-cell {
+  position: relative;
 }
 
-
-.table-staff__header.checkbox input[type="checkbox"],
-.table-staff__table-data.checkbox input[type="checkbox"] {
-    height: 20px;
-    width: 20px;
-    cursor: pointer;
-    margin: 0;
+.table-staff__actions {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  padding-right: 16px;
+  top: 6px;
+  right: 0px;
 }
 
-.table-staff .table-staff__table-data{
-    height: 48px;
+.table-staff__row.body-row:hover .table-staff__actions {
+  visibility: visible;
+}
+
+.table-staff__actions .btn--round {
+  width: 36px;
+  height: 36px;
+  border-radius: 50% !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.table-staff__actions .btn--round i {
+  font-size: 14px;
+  color: #666666;
+}
+
+.table-staff__actions .btn--round:hover {
+  cursor: pointer;
+}
+
+/* Checkbox custom */
+input[type="checkbox"]:checked {
+  background: #50b83c;
+  color: #ffffff;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  background: lightgray;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #e6e4e4;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  position: relative;
+  left: 35%;
+  top: 20%;
+  width: 15%;
+  height: 40%;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(50deg);
+  display: none;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
+/* Button -- thay phần này bằng css của button component nếu có thể */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 14px;
     font-weight: 400;
-    color: #1F1F1F;
+    line-height: 36px;
+    box-sizing: border-box;
+    min-width: 80px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+  .btn__content{
     padding: 0px 16px;
-    border-bottom: 1px solid #EEEEEE;
-}
+  }
+  
+  /* Primary button*/
+  
+  .btn--primary {
+    color: #ffffff;
+    background-color: #50b83c;
+  }
+  
+  .btn--primary:hover {
+    background-color: #73c663;
+    cursor: pointer;
+  }
+  
+  .btn--primary:active {
+    background-color: #055b27;
+  }
+
+  
+.btn--secondary {
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .btn--secondary:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
+  
+  .btn--secondary:active {
+    background-color: #ebebeb;
+  }
