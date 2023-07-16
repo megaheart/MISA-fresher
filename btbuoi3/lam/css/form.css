@@ -1,3 +1,10 @@
+.lam * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+}
 #dialog_form {
   position: fixed;
   top: 0;
@@ -70,7 +77,7 @@
 
 .section__infor {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-bottom: 24px;
   flex-direction: column;
   padding-right: 18px;
@@ -87,7 +94,7 @@
 .div__container_input {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .div_container_horizontal {

@@ -7,9 +7,7 @@ const iconCloseDialog = document.querySelector('#icon_close-dialog');
 const btnCancel = document.querySelector('#btn_cancel');
 
 const combobox = document.querySelector('.combobox');
-const selected = combobox.querySelector('.combobox__selected');
 const options = combobox.querySelector('.combobox__options');
-const optionItems = combobox.querySelectorAll('.combobox__option');
 const inputCombobox = document.querySelector('.combobox > input');
 const showCombobox = document.querySelector('.combobox > i');
 
