@@ -68,6 +68,7 @@ input[type="radio"]:checked {
   border: 1px solid #000;
   outline: none;
   accent-color: green;
+  margin-right: 2px;
 }
 
 .input_text > input[type="date"] {

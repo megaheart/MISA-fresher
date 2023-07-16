@@ -41,8 +41,8 @@
 }
 .header__action {
   position: relative;
-  top: -20px;
-  left: 20px;
+  top: -25px;
+  right: -15px;
   gap: 8px;
   display: flex;
   flex-direction: row;
@@ -61,6 +61,7 @@
   display: flex;
   gap: 12px;
   margin-bottom: 24px;
+  padding-right: 18px;
 }
 
 .section__infor_person > .div__container_input {
@@ -72,6 +73,7 @@
   gap: 24px;
   margin-bottom: 24px;
   flex-direction: column;
+  padding-right: 18px;
 }
 
 .div_radio_input {
@@ -79,7 +81,7 @@
   margin-top: 8px;
   height: 36px;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 .div__container_input {
@@ -106,4 +108,16 @@
 
 .hidden_dialog {
   display: none;
+}
+
+.sprite__close {
+  background: url("../Resource/img/Sprites.64af8f61.svg") no-repeat -147px -147px;
+  width: 18px;
+  height: 18px;
+}
+
+.sprite__question {
+  background: url("../Resource/img/Sprites.64af8f61.svg") no-repeat -89px -145px;
+  width: 22px;
+  height: 22px;
 }
