@@ -1,0 +1,43 @@
+
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+:root {
+  --primary-color: #50b83c;
+  --primary-color-hover: #57c841;
+  --primary-color-active: #118044;
+
+  --minor-text-color: #1f1f1f;
+  --minor-border-color: #e6e6e6;
+  --minor-hover-color: #f6f6f6;
+  --minor-press-color: #ebebeb;
+
+  --warning-color: #f21e1e;
+  --error-color: rgb(255, 0, 0);
+  --white-color: #fff;
+  --white-color-border: #e0e0e0;
+  --white-color-normal: #f5f5f5;
+  --white-color-hover: #f6f6f6;
+  --white-color-active: #bdbdbd;
+  --white-color-hover-medium: #e0e0e0;
+  --width-add-icon: 16px;
+  --height-add-icon: 2px;
+
+  --width-add-icon-btn-icon: 20px;
+  --height-add-icon: 2px;
+
+  --height-input-text: 36px;
+
+  --border-radius-size: 4px;
+
+  --popup-notification-height: 56px;
+}
+
+input,
+button {
+  outline: none;
+}

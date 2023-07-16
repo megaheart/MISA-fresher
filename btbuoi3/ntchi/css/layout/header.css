@@ -1,0 +1,8 @@
+.header{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   width: calc(100vw - 200px);
+   height: 56px;
+   background-color: rgb(121, 42, 42);
+}

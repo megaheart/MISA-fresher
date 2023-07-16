@@ -1,0 +1,130 @@
+<button class="btn__main" id="show_dialog">Show form</button>
+<div id="dialog_form" class="hidden_dialog ">
+    <form autocomplete="off" class="form__infor">
+        <header class="form__header">
+            <div class="header__title">
+                <h1>Thông tin nhân viên</h1>
+                <label class="input_radio">
+                    <input type="checkbox" name="client" value="client"> Là khách hàng
+                </label>
+                <label class="input_radio">
+                    <input type="checkbox" name="distributor" value="distributor"> Là nhà cung cấp
+                </label class="input_text">
+            </div>
+            <div class="header__action">
+                <i class="sprite__question"></i>
+                <i id="icon_close-dialog" class="sprite__close"></i>
+            </div>
+        </header>
+        <main class="form_main">
+            <section class="section__infor_person">
+                <div class="div__container_input">
+                    <div class="div_container_horizontal">
+                        <label class="input_text">
+                            Mã <span class="input__required">*</span>
+                            <input class="input_normal input__small_size input_block" type="text" id="id">
+                        </label>
+                        <label class="input_text input__flex_1 ">
+                            Tên <span class="input__required">*</span>
+                            <input class="input_normal input_block " type="text" id="person_name">
+                        </label>
+                    </div>
+                    <label class="input_text">
+                        Đơn vị <span class="input__required">*</span>
+                        <div class="combobox__show_page">
+                            <input id="department" class="div_textfield__combobox" type="text" placeholder="Type here">
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <div class="combobox__options">
+                            </div>
+                        </div>
+                    </label>
+                    <label class="input_text">
+                        Chức danh <span class="input__required">*</span>
+                        <input class="input_normal input_block " type="text" id="title">
+                    </label>
+                </div>
+                <div class="div__container_input">
+                    <div class="div_container_horizontal">
+                        <label class="input_text input__small_size">
+                            Ngày sinh
+                            <input class="input_normal input_block" type="date" id="birthday">
+                        </label>
+                        <label class="input__flex_1  margin__left">
+                            <span>Giới tính</span>
+                            <div class="div_radio_input">
+                                <label class="input_radio">
+                                    <input type="radio" name="gender" value="male" />
+                                    Nam
+                                </label>
+                                <label class="input_radio">
+                                    <input type="radio" name="gender" value="female" />
+                                    Nữ
+                                </label>
+                                <label class="input_radio">
+                                    <input type="radio" name="gender" value="other" />
+                                    Khác
+                                </label>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="div_container_horizontal">
+                        <label class="input_text input__large_size">
+                            Số CMND
+                            <input class="input_normal input_block" type="text" id="id_card">
+                        </label>
+                        <label class="input_text input__flex_1">
+                            Ngày cấp
+                            <input class="input_normal input_block " type="date" id="id_card_date">
+                        </label>
+                    </div>
+                    <label class="input_text">
+                        Nơi cấp
+                        <input class="input_normal input_block" type="text" id="id_card_place">
+                    </label>
+                </div>
+            </section>
+            <section class="section__infor">
+                <label class="input_text">
+                    Địa chỉ
+                    <input class="input_normal input_block " type="text" id="address">
+                </label>
+                <div class="div_container_horizontal">
+                    <label class="input_text input__medium_size">
+                        ĐT di động
+                        <input class="input_normal input_block " type="text" id="mobile_phone">
+                    </label>
+                    <label class="input_text input__medium_size">
+                        ĐT cố định
+                        <input class="input_normal input_block" type="text" id="home_phone">
+                    </label>
+                    <label class="input_text input__medium_size">
+                        Email
+                        <input class="input_normal input_block" type="email" id="email">
+                    </label>
+                </div>
+                <div class="div_container_horizontal">
+                    <label class="input_text input__medium_size">
+                        Tài khoản ngân hàng
+                        <input class="input_normal input_block" type="text" id="bank_account">
+                    </label>
+                    <label class="input_text input__medium_size">
+                        Tên ngân hàng
+                        <input class="input_normal input_block" type="text" id="bank_name">
+                    </label>
+                    <label class="input_text input__medium_size">
+                        Chi nhánh
+                        <input class="input_normal input_block" type="text" id="bacnk_branch">
+                    </label>
+                </div>
+            </section>
+        </main>
+        <footer class="form__footer">
+            <button id="btn_cancel" class="btn__sub">Hủy</button>
+            <section>
+                <button class="btn__sub">Cất</button>
+                <button id="btn_save" class="btn__main margin__left">Cất và thêm mới</button>
+            </section>
+        </footer>
+    </form>
+</div>
+<script src="./js/main.js"></script>

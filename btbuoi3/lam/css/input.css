@@ -1,0 +1,90 @@
+.input_text {
+  font-weight: 600;
+}
+
+.input_text > input,
+select {
+  width: 100%;
+}
+.option_value {
+  height: 32px;
+}
+.option_value:active {
+  padding: 8px;
+  background-color: var(--primary-color);
+}
+
+.input_normal {
+  margin-top: 8px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.input_normal:focus {
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+
+.input_block {
+  display: block;
+}
+
+.input__small_size {
+  width: 200px;
+}
+.input__medium_size {
+  width: 240px;
+}
+.input__large_size {
+  width: 290px;
+}
+
+.input__flex_1 {
+  flex-grow: 1;
+}
+label > span {
+  font-weight: 600;
+}
+
+.input_radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input_radio > input {
+  width: 20px;
+  height: 20px;
+}
+
+.margin__left {
+  margin-left: 8px;
+}
+
+input[type="radio"]:checked {
+  border: 1px solid #000;
+  outline: none;
+  accent-color: green;
+  margin-right: 2px;
+}
+
+.input_text > input[type="date"] {
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.input_text > input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input__error {
+  border: 1px solid var(--error-color) !important;
+}
+
+.input__required {
+  color: var(--error-color);
+}

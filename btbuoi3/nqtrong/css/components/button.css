@@ -1,0 +1,25 @@
+.m-btn{
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background-color: #50B83C;
+    color: #fff;
+    cursor: pointer;
+    min-width: 100px;
+}
+.m-btn:hover{
+    background-color: #2fbe8e;
+}
+.m-btn:active{
+    background-color: #01b075;
+}
+.m-button-icon{
+    background-image: url(../../assets/load.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+}
