@@ -116,10 +116,12 @@ btnShowDialog.addEventListener('click', function () {
 })
 iconCloseDialog.addEventListener('click', function () {
     dialog.classList.add('hidden_dialog');
+    resetInput()
 })
 
 btnCancel.addEventListener('click', function () {
     dialog.classList.add('hidden_dialog');
+    resetInput()
 })
 
 

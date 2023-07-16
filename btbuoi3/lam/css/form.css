@@ -60,7 +60,7 @@
 .section__infor_person {
   display: flex;
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .section__infor_person > .div__container_input {
@@ -70,7 +70,7 @@
 .section__infor {
   display: flex;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   flex-direction: column;
 }
 
@@ -96,8 +96,8 @@
 .form__footer {
   display: flex;
   justify-content: space-between;
-  padding: 32px 0 0 0;
-  border-top: 1px solid var(--white-color-active);
+  /* padding: 32px 0 0 0;
+  border-top: 1px solid var(--white-color-active); */
 }
 
 .fullwidth {
