@@ -1,0 +1,196 @@
+.sidebar{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100vh;
+    background-color:#041434;
+    display:flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    flex-direction: column;
+}
+.side_bar_head{
+    box-sizing: border-box;
+    width: 200px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    align-items: center;
+}
+.side_bar_head .toggle{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
+    width: 16px;
+	height: 16px;
+    background: #fff;
+    margin: 16px;
+    margin-left: 0px;
+}
+.side_bar_head .logo{
+    background: url('/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg') no-repeat -1232px -1015px;
+	width: 44px;
+	height: 45px;
+    margin-right:8px;
+}
+.side_bar_head .name{
+    font-size: 20px;
+    font-family: R-bold;
+    margin:16px 0px;
+    color: #fff;
+}
+.sidebar_element{
+    box-sizing: border-box;
+    margin: 4px 0px;
+    padding: 0;
+    width: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.sidebar_element .sidebar_element_icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px 12px;
+    color: #869AB8;
+    object-fit: fill;
+}
+.sidebar_element .sidebar_element_name{
+    color: #869AB8;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.sidebar_element:hover{
+    background: rgb(167,196,255,0.16);
+    cursor: pointer;
+}
+.sidebar_element:hover .sidebar_element_icon {
+    color: #fff;
+}
+.sidebar_element:hover .sidebar_element_name {
+    color: #fff;
+}
+.sidebar_element .sidebar_element_icon.icon-tongquan{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -33px -1630px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -32px -1721px;
+    width: 18px;
+	height: 20px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-tienmat{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+    width: 14px;
+	height: 18px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-tiengui{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+    width: 16px;
+	height: 16px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-muahang{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    width: 16px;
+	height: 18px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-banhang{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+    width: 16px;
+	height: 18px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-quanlyhoadon{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+    width: 14px;
+	height: 17px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-kho{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+    width: 18px;
+	height: 17px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-congcudungcu{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+    width: 18px;
+	height: 17px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-taisancodinh{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1632px;
+    width: 17px;
+	height: 18px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-thue{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -427px -1634px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -427px -1634px;
+    width: 16px;
+	height: 16px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-giathanh{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -471px -1633px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+    width: 17px;
+	height: 17px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-tonghop{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -514px -1632px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -514px -1632px;
+    width: 16px;
+	height: 18px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-ngansach{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -382px -1664px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -382px -1664px;
+    width: 16px;
+	height: 16px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-baocao{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -552px -1636px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -552px -1636px;
+    width: 14px;
+	height: 13px;
+    background-color: #869AB8;
+}
+
+.sidebar_element .sidebar_element_icon.icon-phantichtaichinh{
+    -webkit-mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat  -207px -1667px;
+    mask: url("/btbuoi3/ntchi/assets/img/Sprites.64af8f61.svg") no-repeat -207px -1667px;
+    width: 17px;
+	height: 14px;
+    background-color: #869AB8;
+}
+
+
