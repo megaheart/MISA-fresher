@@ -25,7 +25,7 @@
 .form__header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .header__title {
@@ -52,7 +52,7 @@
 }
 .section__infor_person {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   margin-bottom: 32px;
 }
 
@@ -62,7 +62,7 @@
 
 .section__infor {
   display: flex;
-  gap: 16px;
+  gap: 10px;
   margin-bottom: 32px;
   flex-direction: column;
 }
@@ -72,13 +72,13 @@
   margin-top: 8px;
   height: 36px;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .div__container_input {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .div_container_horizontal {
@@ -89,6 +89,8 @@
 .form__footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px 0 0 0;
+  border-top: 1px solid var(--white-color-active);
 }
 
 .fullwidth {

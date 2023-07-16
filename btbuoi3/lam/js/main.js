@@ -132,12 +132,12 @@ dialog.addEventListener('click', function (e) {
     }
 })
 
-document.addEventListener('mouseup', function (e) {
+document.addEventListener('click', function (e) {
     if (options.classList.contains('show')) {
         console.log(e.target)
         console.log(options.contains(e.target))
 
-        if (!options.contains(e.target)) {
+        if (!combobox.contains(e.target)) {
             document.activeElement.blur();
             options.classList.remove('show');
         }
@@ -147,8 +147,13 @@ document.addEventListener('mouseup', function (e) {
 function showFullCombobox() {
     if (!options.classList.contains('show')) {
         options.innerHTML = '';
+        const value = inputCombobox.value;
+        console.log(value)
         listUnit.filter(
-            city => city.value.includes(filterValue)
+            city => {
+                if (!value || value === '') return true;
+                return city.value.includes(filterValue)
+            }
         ).forEach(function (city) {
             const option = document.createElement('div');
             option.classList.add('combobox__option');
@@ -168,7 +173,7 @@ function showFullCombobox() {
 
 showCombobox.addEventListener('click', showFullCombobox);
 
-inputCombobox.addEventListener('click', function (e) {
+inputCombobox.addEventListener('mousedown', function (e) {
     e.stopPropagation();
     if (!options.classList.contains('show')) {
         showFullCombobox();
