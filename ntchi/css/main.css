@@ -1,0 +1,31 @@
+@import url(./layout/content.css);
+@import url(./layout/header.css);
+@import url(./layout/sidebar.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:R-medium;
+}
+.right{
+    float: right;
+}
+.left{
+    float:left
+}
+:root{
+    --cl-primary:#007AFF;
+    --cl-focus:#004999;
+    --cl-hover:#3395FF;
+    --cl-border:#001833;
+}
+
+@font-face {
+    font-family: R-medium ;
+    src: url("/assets/fonts/Roboto-Medium.ttf")
+}
+@font-face{
+    font-family: R-bold ;
+    src: url("/assets/fonts/Roboto-Bold.ttf")
+}
