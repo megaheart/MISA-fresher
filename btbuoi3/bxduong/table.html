@@ -367,7 +367,7 @@
             </div>
           </td>
         </tr>
-        <tr class="table-staff__row body-row">
+        <tr class="table-staff__row body-row" id="row-11">
           <td class="table-staff__table-data checkbox">
             <label class="checkbox">
               <input type="checkbox" />
@@ -401,9 +401,8 @@
 
     checkboxes.forEach((checkbox) => {
       checkbox.addEventListener('click', (e) => {
-        this.checked = !this.checked;
-        const computed = window.getComputedStyle(checkbox , '::after');
-        if (computed) {
+        const computed = window.getComputedStyle(checkbox , '::after')
+        if (computed.getPropertyValue('display') === 'block') {
           checkbox.parentElement.parentElement.parentElement.classList.add("active");
         } else {
           checkbox.parentElement.parentElement.parentElement.classList.remove("active");
