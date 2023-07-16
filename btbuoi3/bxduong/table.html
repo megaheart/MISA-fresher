@@ -12,14 +12,36 @@
   </head>
   <body>
     <table class="table-staff">
-      <thead class="table-staff__head">
+      <thead clas   s="table-staff__head">
         <tr class="table-staff__row--head-row">
-          <th class="table-staff__header--checkbox">
+          <th id="table-checkbox" class="table-staff__header checkbox">
             <label class="checkbox">
               <input type="checkbox" />
             </label>
           </th>
-          <th class="table-staff__header">Mã nhân viên <div class="table-staff__filter"><i class="fa-solid fa-filter"></i></div></th>
+          <th class="table-staff__header">Mã nhân viên 
+            <div class="table-staff__filter">
+                <i class="fa-solid fa-filter"></i>
+                <div class="table-staff__filter-options">
+                    <div class="filter-options__title">
+                        Điều kiện lọc
+                    </div>
+                    <div class="filter-options__content">
+                        <label class="filter-options__input">
+                            <input type="text" placeholder="Nhập giá trị"/>
+                        </label>
+                    </div>
+                    <div class="filter-options__actions">
+                        <div class="btn btn--secondary">
+                            <div class="btn__content">Bỏ lọc</div>
+                        </div>
+                        <div class="btn btn--primary">
+                            <div class="btn__content">Áp dụng</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </th>
           <th class="table-staff__header">Tên nhân viên</th>
           <th class="table-staff__header">Giới tính</th>
           <th class="table-staff__header">Ngày sinh</th>

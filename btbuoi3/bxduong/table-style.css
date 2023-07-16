@@ -25,14 +25,60 @@
     text-align: left;   
 }
 
-.table-staff .table-staff__header--checkbox {
+/* Cố định chiều rộng ô khi kéo dài bảng*/
+#table-checkbox {
     width: 20px;
 }
+
+
+/* Filter của bảng*/
 
 .table-staff__filter {
     float: right;
     cursor: pointer;
 }
+
+.table-staff__filter-options {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    margin-top: 12px;
+    background: #FFFFFF;
+    font-size: 14px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.078);
+}
+
+.table-staff__filter-options::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #FFFFFF transparent;;
+}
+
+.table-staff__filter i:hover ~ .table-staff__filter-options {
+    z-index: 1;
+    visibility: visible;
+    flex-direction: column;
+}
+
+.table-staff__filter-options .filter-options__title {
+    padding: 24px;
+    font-weight: 500;
+}
+
+.table-staff__filter-options .filter-options__content {
+    padding: 0px 24px 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table-staff__filter-options .filter-options__actions {
+    padding: 12px 24px;
+    background-color: #F5F5F5;
+}
+
 
 .table-staff__row.body-row:hover {
     background-color: #F8F8F8;
