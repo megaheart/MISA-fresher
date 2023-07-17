@@ -3,7 +3,7 @@ body {
 }
 
 .sidebar,
-.header-search {
+.header-search .m-page-header {
     z-index: 9999;
 }
 
@@ -27,7 +27,7 @@ body {
     margin: 60px 0 0 200px;
     padding: 40px;
     min-width: 1300px;
-    min-height: 1000px;
+    min-height: 1300px;
 }
 
 .staff-container__header {
@@ -44,5 +44,5 @@ body {
 }
 
 .table-staff__container{
-    height: unset;
+    height: 1000px;
 }
