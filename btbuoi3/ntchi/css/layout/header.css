@@ -1,8 +1,85 @@
-.header{
+@import url(/css/components/textfield.css);
+@import url(/css/variable.css);
+.header-container{
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   width: calc(100vw - 200px);
+   width: calc(100% - 200px);
    height: 56px;
-   background-color: rgb(121, 42, 42);
+   background-color: #ffffff;
+}
+.header-left{
+   display:flex;
+   align-items:center;
+   height:56px;
+}
+.header-image{
+   width: 24px;
+   margin: 16px;
+   cursor: pointer;
+}
+.header-title{
+   height: 24px;
+   font-weight:700;
+   font-size: 20px;
+   margin-right: 40px;
+   cursor: pointer;
+}
+.header-right {
+   display:flex;
+   align-items:center;
+   height:56px;
+}
+.header-right .setting-icon{
+   background: var(--url-sprite) no-repeat -676px -30px;
+   width: 23px;
+  height: 24px;
+   margin-right: 26px
+}
+.header-right .setting-icon:hover{
+   cursor: pointer;
+}
+.header-right .noti-icon{
+   background: var(--url-sprite) no-repeat -899px -30px;
+   width: 24px;
+   height: 25px;
+   margin-right: 26px;
+}
+
+.header-right .noti-icon:hover{
+   cursor: pointer;
+}
+
+.header-right .help-icon{
+   background: var(--url-sprite) no-repeat -732px -31px;
+   width: 24px;
+   height: 24px;
+   margin-right: 26px
+}
+
+.header-right .help-icon:hover{
+   cursor: pointer;
+}
+
+.header-right .bell-icon{
+   background: var(--url-sprite) no-repeat -788px -30px;
+   width: 24px;
+   height: 24px;
+   margin-right: 26px
+}
+
+.header-right .bell-icon:hover{
+   cursor: pointer;
+}
+
+.header-right .avt-icon{
+   background: var(--url-sprite) no-repeat -352px -894px;
+   width: 32px;
+   height: 32px;
+   margin-right: 16px;
+   border-radius: 50%;
+}
+
+.header-right .avt-icon:hover{
+   cursor: pointer;
 }

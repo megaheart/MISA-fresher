@@ -1,0 +1,67 @@
+@import url(../variable.css);
+/* CSS chung cho main , sub button */
+.btn{
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    text-align: center;
+    height: 36px;
+    min-width: 80px;
+    padding: 16px;
+    border-radius: 4px;
+}
+/* css cho main button */
+.main_btn{
+    border: none;
+    background: #50b83c;
+    color: #fff;
+
+}
+.main_btn:hover{
+    background-color: #00c954;
+}
+
+
+/* css cho sub button */
+.sub_btn{
+    border: #E6E6E6 solid 1px ;
+    background: #fff;
+    color: #1F1F1F;
+}
+
+.icon_btn{
+    width: 40px;
+    height: 36px;
+    background: rgba(80,184,60,0.1);
+    border: none;
+    border-radius: 4px;
+    color:  #50b83c; 
+}
+
+.combo_btn{
+    box-sizing: border-box;
+    background:  #50b83c; 
+    height: 36px;
+    width: 133px;
+    border-radius: 4px;
+}
+.combo_btn--left{
+    width: 93px;
+    border: none;
+    outline: none;
+    border-radius: 4px 0px 0px 4px;
+    border-right: white solid 1px ;
+    background:  #50b83c;
+    color: #fff;
+    padding: 12px;
+}
+.combo_btn--right{
+   color: #fff;
+   width: 40px;
+   padding: 12px;
+}
+
+
+

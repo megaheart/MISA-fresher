@@ -1,0 +1,10 @@
+:root{
+    --primary-color:#030b1b;
+    --th-color:#F5F5F5;
+    --sidebar-element: #869AB8;
+    --sidebar-hover:#a7c4ff29;
+    --button-color: #50b83c;
+    --button-hover: #00c954;
+    --url-sprite: url("/assets/img/Sprites.64af8f61.svg");
+    --url-search: url("/assets/search.png")
+}

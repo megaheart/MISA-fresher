@@ -14,18 +14,13 @@ body{
 .left{
     float:left
 }
-:root{
-    --cl-primary:#007AFF;
-    --cl-focus:#004999;
-    --cl-hover:#3395FF;
-    --cl-border:#001833;
-}
+
 
 @font-face {
     font-family: R-medium ;
-    src: url("/btbuoi3/ntchi/assets/fonts/Roboto-Medium.ttf")
+    src: url("/assets/fonts/Roboto-Medium.ttf")
 }
 @font-face{
     font-family: R-bold ;
-    src: url("/btbuoi3/ntchi/assets/fonts/Roboto-Bold.ttf")
+    src: url("/assets/fonts/Roboto-Bold.ttf")
 }
